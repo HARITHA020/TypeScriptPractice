@@ -102,11 +102,11 @@ let grossSalary = basicSalary + hra + da;
 console.log("7. Gross Salary =", grossSalary);
 
 // 8. Count Letters, Digits, Symbols
-let str: string = "India became independent in 1947";
+let str1: string = "India became independent in 1947";
 let letters = 0;
 let digits = 0;
-let symbols = 0;
-for (let ch of str) {
+let symbol = 0;
+for (let ch of str1) {
     if ((ch >= 'A' && ch <= 'Z') ||(ch >= 'a' && ch <= 'z')) {
         letters++;
     }
@@ -114,16 +114,16 @@ for (let ch of str) {
         digits++;
     }
     else {
-        symbols++;
+        symbol++;
     }
 }
 console.log("8. Letters =", letters);
 console.log("Digits =", digits);
-console.log("Other Symbols =", symbols);
+console.log("Other Symbols =", symbol);
 
 // 9. Armstrong Number
-let num: number = 153;
-let temp: number = num;
+let armnum: number = 153;
+let temp: number = armnum;
 let armstrongSum: number = 0;
 while (temp > 0) {
     let digit = temp % 10;

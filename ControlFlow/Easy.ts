@@ -8,9 +8,9 @@ console.log("1. Total Salary =", totalSalary);
 
 
 // 2
-let num: number = 49;
+let nums: number = 49;
 
-if (num % 7 == 0) {
+if (nums % 7 == 0) {
     console.log("2. Divisible by 7");
 }
 
