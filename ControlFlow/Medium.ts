@@ -130,7 +130,7 @@ while (temp > 0) {
     armstrongSum += digit * digit * digit;
     temp = Math.floor(temp / 10);
 }
-if (armstrongSum == num) {
+if (armstrongSum == armnum) {
     console.log("9. Armstrong Number");
 }
 else {
