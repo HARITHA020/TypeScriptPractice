@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "target": "es2020",
+    "module": "commonjs"
+  },
+  "include": [
+    "DEMOPractice/**/*.ts",
+    "Sequential/**/*.ts"
+  ]
+}
