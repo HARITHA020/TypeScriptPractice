@@ -6,7 +6,6 @@
     "module": "commonjs"
   },
   "include": [
-    "DEMOPractice/**/*.ts",
-    "Sequential/**/*.ts"
+    "DEMOPractice/**/*.ts"
   ]
 }
